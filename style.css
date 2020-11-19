@@ -1,0 +1,60 @@
+
+
+.link{
+    display : flex;
+    justify-content : flex-end;
+}
+.header{
+    background-color: whitesmoke;
+}
+.origami{
+    border-color: black;
+    border-style: outset;
+    border-radius: 20px;
+}
+.header2{
+    border-style : inset;
+    background-color:black;
+    color:white;
+}
+body{
+    background-color: whitesmoke;
+}
+.facts{
+    font-size: 0.5cm;
+    align-content: space-between;
+}
+.facts{
+    justify-content:center;
+    border-color:black;
+    border-style:outset;
+    padding:10px;
+}
+.facts img{
+    position:relative;
+}
+.facts p{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+.pictures{
+    display:flex;
+    flex-wrap: wrap;
+}
+.about{
+    display: flex;
+    flex-wrap: unset ;
+    justify-content: space-evenly;
+    background-color:black;
+   color:burlywood
+  
+
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
